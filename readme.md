@@ -1,7 +1,7 @@
 # :bulb: Welcome to my Youtube Clone Application :movie_camera:
 
 --------------------------------------------------
-![PIC1](https://assets.materialup.com/uploads/6f722931-d27d-437f-875b-587cf196334a/preview.png)
+![PIC1](https://cdn.searchenginejournal.com/wp-content/uploads/2020/03/f0298ebf-781e-493e-9fa9-bf4ea3f1c891-5e6ac5df97392.jpeg)
 ## Requirements:
 * Typescript
 * Redux Toolkits
