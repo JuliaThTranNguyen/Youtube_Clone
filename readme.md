@@ -38,6 +38,9 @@ How to run the app
 npm start
 ```
 
+How to config the react app:
+
+[READ THIS](./config.md)
 ### Heroku set up:
 
 ![PIC3](https://s3.stackabuse.com/media/articles/how-to-deploy-a-react-app-to-heroku-1.png)
