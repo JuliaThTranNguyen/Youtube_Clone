@@ -32,6 +32,34 @@ How to create a typescript application with create-react-app
 npx create-react-app youtube-clone . --template typescript
 ```
 
+
+Seperate package installation for this application:
+
+```
+npm install -D tailwindcss postcss autoprefixer
+```
+
+Create new files in the main directory && new directories:
+
+```
+touch tailwind.config.js postcss.config.js .env
+cd src/ 
+mkdir pages components store utils
+```
+
+Make sure to edit the contents of this new files and the index.css file in /src .
+You might need this: 
+
+```
+npm install @tailwindcss/line-clamp react-icons axios react-infinite-scroll-component @reduxjs/toolkit react-redux dotenv react-router-dom
+```
+
+Check for the installed packages
+
+```
+npm list
+```
+
 How to run the app
 
 ```
@@ -41,6 +69,7 @@ npm start
 How to config the react app:
 
 [READ THIS](./config.md)
+
 ### Heroku set up:
 
 ![PIC3](https://s3.stackabuse.com/media/articles/how-to-deploy-a-react-app-to-heroku-1.png)
@@ -48,6 +77,7 @@ How to config the react app:
 * 1. Set up Heroku account
 * 2. Get to know Heorku with Node
 [Links](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
+
 * 3. Install heroku CLI
 [Links](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
 
